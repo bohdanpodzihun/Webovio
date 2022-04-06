@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5,h6, p {
 
 .services {
     margin-top: 140px;
-    margin-bottom: 326px;
+    margin-bottom: 100px;
 }
 
 .servicesContainer {
@@ -208,4 +208,55 @@ h1, h2, h3, h4, h5,h6, p {
 
 .servicesItemBtnSpan {
     text-decoration: underline;
+}
+
+.getStarted {
+    position: relative;
+    top: 160px;
+    background-color: #FAFAFA;
+    height: 362px;
+    width: 1275px;
+}
+
+.getStartedH2 {
+    color: var(--blackColor);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+    width: 822px;
+    padding: 70px 289px 50px 164px;
+} 
+
+.getStartedBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-left: 164px;
+}
+
+.getStartedBtnP {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;    
+    color: #D4D6D4;
+    text-transform: uppercase;
+}
+
+.getStartedBtnP:hover {
+    color: var(--yellowColor);
+}
+
+.getStartedBtnSpan {
+    text-decoration: underline;
+}
+
+.footer {
+    background: url(../img/footerBG.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 920px;
 }

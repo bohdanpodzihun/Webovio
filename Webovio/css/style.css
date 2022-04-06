@@ -260,3 +260,120 @@ h1, h2, h3, h4, h5,h6, p {
     background-size: 100%;
     height: 920px;
 }
+
+.footerContainer {
+    padding-top: 350px;
+}
+
+.footerTopGrid {
+    width: 452px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 212px;
+    margin-bottom: 52px;
+}
+
+.footerTopP {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #B6C197;
+    margin-bottom: 8px;
+}
+
+.footerTopNumber {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.footerTopAddress {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.footerMiddleGrid {
+    border-top: 2px solid #5D6544;
+    border-bottom: 2px solid #5D6544;
+    width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footerTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 21px;
+}
+
+.footerMiidleList {
+    width: 160px;
+    padding: 0;
+}
+
+.footerMiidleLi {
+    list-style-type: none;    
+}
+
+.footerMiddleLink {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #B6C197;
+    text-decoration: none;
+}
+
+.footerMiddleLink:hover {
+    color: var(--yellowColor);
+}
+
+.footerMiddleText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #B6C197;
+    width: 270px;
+    margin-bottom: 23px;
+}
+
+.footerMiidleEmail {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.mediaGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 200px;
+}
+
+.media {
+    margin-top: 33px;
+    
+}

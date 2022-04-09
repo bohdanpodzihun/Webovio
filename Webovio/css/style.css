@@ -2,6 +2,10 @@
     opacity: 0.4;
 }
 
+.moreText {
+    display: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -190,8 +194,17 @@ h1, h2, h3, h4, h5,h6, p {
     line-height: 26px;
     color: rgba(33, 56, 66, 0.6);
     width: 194px;
-    height: 104px;
     margin-bottom: 30px;
+}
+
+.servicesButtonGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.serviceButtonGridItem {
+    margin-right: 130px;
 }
 
 .servicesItemBtn {

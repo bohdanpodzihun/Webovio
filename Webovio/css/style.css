@@ -197,16 +197,6 @@ h1, h2, h3, h4, h5,h6, p {
     margin-bottom: 30px;
 }
 
-.servicesButtonGrid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-}
-
-.serviceButtonGridItem {
-    margin-right: 130px;
-}
-
 .servicesItemBtn {
     background: none;
     border: none;
